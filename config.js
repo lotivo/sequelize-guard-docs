@@ -7,23 +7,23 @@ const config = {
   },
   header: {
     logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
+    logoLink: 'https://github.com/lotivo/',
     title:
       "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+    githubUrl: 'https://github.com/lotivo/sequelize-guard',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		    <a href="https://twitter.com/iampankajv1" title="Pankaj Vaghela | Twitter" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
+		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter Pankaj Vaghela'}/>
 		      </div>
 		    </a>
 		  </li>
 			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
+		    <a href="https://sequelizeguard.slack.com" title="Join Slack" target="_blank" rel="noopener">
 		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
+		        <img src='https://image.flaticon.com/icons/png/512/2111/2111615.png' alt={'Join Slack'}/>
 		      </div>
 		    </a>
 		  </li>`,
@@ -44,24 +44,24 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'Lotivo', link: 'https://github.com/lotivo' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "<a href='https://github.com/lotivo/sequelize-guard'>Sequelize Guard </a><div class='greenCircle'></div>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Sequelize Guard Documentation',
+    description: 'Documentation for Sequelize Guard. An Authorization Library for Sequelize Guard.',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/lotivo/sequelize-guard-docs',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'Sequelize Guard Documentation',
+      short_name: 'Sequelize Guard Docs',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
